@@ -114,7 +114,7 @@
     }
 
     &__details {
-        padding: 3rem;
+        padding: 3rem 1rem;
 
         ul {
             list-style: none;
@@ -124,7 +124,7 @@
             li {
                 text-align: center;
                 font-size: 1.5rem;
-                padding: 1rem;
+                padding: 0.5rem;
 
                 &:not(:last-child) {
                     border-bottom: 1px solid $color-grey-light-2;

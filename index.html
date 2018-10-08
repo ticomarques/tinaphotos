@@ -29,12 +29,12 @@
 
             <nav class="navigation__nav">
                 <ul class="navigation__list">
-                    <li class="navigation__item"><a href="#" class="navigation__link"><span>01</span>Home</a></li>
-                    <li class="navigation__item"><a href="#" class="navigation__link"><span>02</span>About me</a></li>
-                    <li class="navigation__item"><a href="#" class="navigation__link"><span>03</span>Packs</a></li>
-                    <li class="navigation__item"><a href="#" class="navigation__link"><span>04</span>Testemonials</a></li>
-                    <li class="navigation__item"><a href="#" class="navigation__link"><span>05</span>Portfolio</a></li>
-                    <li class="navigation__item"><a href="#" class="navigation__link"><span>06</span>Contact</a></li>
+                    <li class="navigation__item"><a href="#top" class="navigation__link"><span>01</span>Home</a></li>
+                    <li class="navigation__item"><a href="#cAbout" class="navigation__link"><span>02</span>About me</a></li>
+                    <li class="navigation__item"><a href="#section-tours" class="navigation__link"><span>03</span>Packs</a></li>
+                    <li class="navigation__item"><a href="#cStories" class="navigation__link"><span>04</span>Testemonials</a></li>
+                    <li class="navigation__item"><a href="#cPort" class="navigation__link"><span>05</span>Portfolio</a></li>
+                    <li class="navigation__item"><a href="#cContact" class="navigation__link"><span>06</span>Contact</a></li>
                     </ul>
             </nav>
         </div>
@@ -60,7 +60,8 @@
 
         <main>
             
-            <section class="section-about">
+            <!-- COMPONENT ABOUT -->
+            <section class="section-about" id="cAbout">
                 <div class="u-center-text u-margin-bottom-big">
                     <h2 class="heading-secondary">
                         About me
@@ -69,19 +70,14 @@
 
                 <div class="row">
                     <div class="col-1-of-2">
-                        <h3 class="heading-tertiary u-margin-bottom-small">The photograper</h3>
+                        <!--<h3 class="heading-tertiary u-margin-bottom-small">The photograper</h3>-->
                         <p class="paragraph">
-                            Hello there, I am Tina... my life as photographer is around 35 years, in all these years my love increased for pictures and get the best moment of your life.
-                        </p>
-
-                        <h3 class="heading-tertiary u-margin-bottom-small">My services</h3>
-                        <p class="paragraph">
-                            I have learnt you will be happy when you find something that really makes you happy, and will not call as job.
+                                My love for photography began when I was 14 years old and my high school offered a photography class as a elective. It took 3 years before I was chosen to take this class. Once I was in this class, the love and joy I felt in capturing people's smiles just warmed my heart. I new this was my calling, what I suppose to do. I have always felt that photography was moments never forgotten, a memory you will always have. Now after 33 years I still feel that same joy and want to share that love with you and your family. 
                         </p>
 
                         <h3 class="heading-tertiary u-margin-bottom-small">My Experience</h3>
                         <p class="paragraph">
-                            During these 35 years I had a lot of different jobs in a photography market, including: marriages, graduation, shows, sports and others...
+                                During my 33 years of experience in photography I have worked on different projects including: Weddings, graduations, fashion shows, sports events, senior picture, baby shower and more.
                         </p>
 
                         
@@ -116,16 +112,26 @@
                     </div>
                 </div>
             </section>
+            <!-- END COMPONENT ABOUT-->
 
 
-
-            <section class="section-features">
+            <!-- COMPONENT PORTIFOLIO -->
+            <section class="section-features"  id="cPort">
                 
                     <div class="row">
+
+                            
+                            <script src="https://apps.elfsight.com/p/platform.js" defer></script>
+                            <div id="instbox">
+                                <div class="elfsight-app-66c6092b-2772-4b96-9a55-2e13cb042f83"></div>
+                            </div>
+                            
+
+                        <!--
                         <div class="col-1-of-4">
                             <div class="feature-box">
                                 <i class="feature-box__icon icon-basic-world"></i>
-                                <h3 class="heading-tertiary u-margin-bottom-small">Explore the world</h3>
+                                <h3 class="heading-tertiary u-margin-bottom-small">PORTFOLIO</h3>
                                 <p class="feature-box__text">
                                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, ipsum sapiente aspernatur.
                                 </p>
@@ -161,15 +167,17 @@
                                 </p>
                             </div>
                         </div>
+                    -->
                     </div>
                 </section>
+                <!-- END COMPONENT PORTFOLIO -->
 
 
-
+            <!-- COMPONENT PACKAGES-->
             <section class="section-tours" id="section-tours">
                 <div class="u-center-text u-margin-bottom-big">
                     <h2 class="heading-secondary">
-                        Most popular Packs
+                        Most popular Packages
                     </h2>
                 </div>
 
@@ -308,8 +316,11 @@
                     <a href="#" class="btn btn--green">All packs</a>
                 </div>-->
             </section>
+            <!-- END COMPONENT PACKAGES-->
 
-            <section class="section-stories">
+
+            <!-- COMPONENT STORIES-->
+            <section class="section-stories"  id="cStories">
                 <div class="bg-video">
                     <video class="bg-video__content" autoplay muted loop>
                         <source src="img/video.mp4" type="video/mp4">
@@ -320,7 +331,7 @@
 
                 <div class="u-center-text u-margin-bottom-big">
                     <h2 class="heading-secondary">
-                       People really happy
+                         Costumers happy
                     </h2>
                 </div>
 
@@ -363,8 +374,10 @@
                 </div>
                 -->
             </section>
+            <!-- END STORIES -->
 
-            <section class="section-book">
+            <!-- COMPONENT CONTACT -->
+            <section class="section-book"  id="cContact">
                     <div class="row">
                             <div class="book">
                                 <div class="book__form">
@@ -406,6 +419,7 @@
                             </div>
                         </div>
             </section>
+            <!-- END COMPONENT CONTACT -->
         </main>
 
         <footer class="footer">
@@ -424,11 +438,11 @@
                 <div class="col-1-of-2">
                     <div class="footer__navigation">
                         <ul class="footer__list">
-                            <li class="footer__item"><a href="#" class="footer__link">Company</a></li>
-                            <li class="footer__item"><a href="#" class="footer__link">Contact us</a></li>
-                            <li class="footer__item"><a href="#" class="footer__link">Carrers</a></li>
-                            <li class="footer__item"><a href="#" class="footer__link">Privacy policy</a></li>
-                            <li class="footer__item"><a href="#" class="footer__link">Terms</a></li>
+                            <li class="footer__item"><a href="#cAbout" class="footer__link">About me</a></li>
+                            <li class="footer__item"><a href="#cPacks" class="footer__link">Packages</a></li>
+                            <li class="footer__item"><a href="#cPort" class="footer__link">Portfolio</a></li>
+                            <li class="footer__item"><a href="#" class="footer__link">Testemonials</a></li>
+                            <li class="footer__item"><a href="#cContact" class="footer__link">Contact</a></li>
                         </ul>
                     </div>
                 </div>
