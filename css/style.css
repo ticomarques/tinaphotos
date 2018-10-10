@@ -88,7 +88,7 @@ body {
     display: block;
     font-size: 4rem;
     font-weight: 400;
-    letter-spacing: 1.5rem;
+    letter-spacing: 1.4rem;
     animation-name: moveInLeft;
     animation-duration: 1s;
     animation-timing-function: ease-out;
@@ -163,6 +163,12 @@ body {
 
 .u-margin-top-huge {
   margin-top: 10rem !important; }
+
+#instaLink_0, #instaLink_0 .instalink-feed-wrapper {
+  background: transparent !important; }
+
+.title-white {
+  color: #FFF; }
 
 .bg-video {
   position: absolute;
@@ -926,7 +932,7 @@ body {
       padding: 20rem 0; } }
 
 .section-features {
-  padding: 20rem 0;
+  padding: 10rem 0;
   background-image: linear-gradient(to right bottom, rgba(65, 105, 225, 0.8), rgba(0, 51, 153, 0.8)), url(../img/nat-4.jpg);
   background-size: cover;
   transform: skewY(-7deg);
