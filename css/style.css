@@ -300,6 +300,8 @@ body {
       background-image: linear-gradient(to right bottom, #4169E1, #003399), url(../img/nat-6.jpg); }
     .card__picture--3 {
       background-image: linear-gradient(to right bottom, #2998ff, #5643fa), url(../img/nat-7.jpg); }
+    .card__picture--4 {
+      background-image: linear-gradient(to right bottom, #2998ff, #5643fa), url(../img/nat-7.jpg); }
   .card__heading {
     font-size: 2.7rem;
     font-weight: 300;
@@ -847,7 +849,8 @@ body {
   z-index: 1500;
   opacity: 0;
   width: 0;
-  transition: all 0.8s cubic-bezier(0.68, -0.55, 0.265, 1.55); }
+  transition: all 0.8s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  visibility: hidden; }
 
 .navigation__list {
   position: absolute;
@@ -886,7 +889,8 @@ body {
 
 .navigation__checkbox:checked ~ .navigation__nav {
   opacity: 1;
-  width: 100%; }
+  width: 100%;
+  visibility: visible; }
 
 .navigation__icon {
   position: relative;
